@@ -180,6 +180,7 @@
             this.btn3.TabIndex = 11;
             this.btn3.Text = "-";
             this.btn3.UseVisualStyleBackColor = true;
+            this.btn3.Click += new System.EventHandler(this.btn3_Click);
             // 
             // cboNordeste
             // 
@@ -197,6 +198,7 @@
             this.btn4.TabIndex = 13;
             this.btn4.Text = "-";
             this.btn4.UseVisualStyleBackColor = true;
+            this.btn4.Click += new System.EventHandler(this.btn4_Click);
             // 
             // cboCentroOeste
             // 
@@ -214,6 +216,7 @@
             this.btn5.TabIndex = 15;
             this.btn5.Text = "-";
             this.btn5.UseVisualStyleBackColor = true;
+            this.btn5.Click += new System.EventHandler(this.btn5_Click);
             // 
             // cboSudeste
             // 
@@ -231,6 +234,7 @@
             this.btn6.TabIndex = 17;
             this.btn6.Text = "-";
             this.btn6.UseVisualStyleBackColor = true;
+            this.btn6.Click += new System.EventHandler(this.btn6_Click);
             // 
             // cboSul
             // 
