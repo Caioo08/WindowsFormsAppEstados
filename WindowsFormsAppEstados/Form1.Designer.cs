@@ -143,6 +143,7 @@
             this.cboEstado.Name = "cboEstado";
             this.cboEstado.Size = new System.Drawing.Size(121, 21);
             this.cboEstado.TabIndex = 6;
+            this.cboEstado.SelectedIndexChanged += new System.EventHandler(this.cboEstado_SelectedIndexChanged);
             // 
             // btn1
             // 
@@ -171,6 +172,7 @@
             this.cboNorte.Name = "cboNorte";
             this.cboNorte.Size = new System.Drawing.Size(121, 21);
             this.cboNorte.TabIndex = 8;
+            this.cboNorte.SelectedIndexChanged += new System.EventHandler(this.cboNorte_SelectedIndexChanged);
             // 
             // btn3
             // 
@@ -189,6 +191,7 @@
             this.cboNordeste.Name = "cboNordeste";
             this.cboNordeste.Size = new System.Drawing.Size(121, 21);
             this.cboNordeste.TabIndex = 10;
+            this.cboNordeste.SelectedIndexChanged += new System.EventHandler(this.cboNordeste_SelectedIndexChanged);
             // 
             // btn4
             // 
@@ -207,6 +210,7 @@
             this.cboCentroOeste.Name = "cboCentroOeste";
             this.cboCentroOeste.Size = new System.Drawing.Size(121, 21);
             this.cboCentroOeste.TabIndex = 12;
+            this.cboCentroOeste.SelectedIndexChanged += new System.EventHandler(this.cboCentroOeste_SelectedIndexChanged);
             // 
             // btn5
             // 
@@ -225,6 +229,7 @@
             this.cboSudeste.Name = "cboSudeste";
             this.cboSudeste.Size = new System.Drawing.Size(121, 21);
             this.cboSudeste.TabIndex = 14;
+            this.cboSudeste.SelectedIndexChanged += new System.EventHandler(this.cboSudeste_SelectedIndexChanged);
             // 
             // btn6
             // 
@@ -243,6 +248,7 @@
             this.cboSul.Name = "cboSul";
             this.cboSul.Size = new System.Drawing.Size(121, 21);
             this.cboSul.TabIndex = 16;
+            this.cboSul.SelectedIndexChanged += new System.EventHandler(this.cboSul_SelectedIndexChanged);
             // 
             // lblTd
             // 
@@ -329,6 +335,7 @@
             this.Controls.Add(this.label1);
             this.Name = "Form1";
             this.Text = "Form1";
+            this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
